@@ -1,0 +1,158 @@
+
+    #main-table{
+               
+              
+    }
+
+    #main-table td.bomb{
+        background-color: yellow;
+
+    }
+    #main-table td i{
+
+        color: darkred;
+    }
+
+
+    #main-table td.red{
+            background-color: red;
+    }
+    #main-table td.green{
+        background-color: #ffe5cc;
+
+    }
+    #main-table td.yellow{
+        background-color: yellow;
+
+    }
+    #main-table td.pink{
+        background-color: pink;
+
+    }
+    #main-table td.gray{
+        background-color: gray;
+
+    }
+
+    #main-table td.dimgray{
+        background-color: dimgray;
+
+    }
+    #main-table td.navy{
+        background-color: navy;
+
+    }
+    #main-table td.violet{
+        background-color: violet;
+    }
+    #main-table td.blue{
+        background-color: blue;
+        color:white;
+        opacity: 80%;
+
+    }
+   
+    #main-table td{
+        text-align: center;
+        width: 25px;
+        height: 25px;
+        background-color: ivory;
+        font-family: sans-serif;
+    }
+    .menu-bar{
+        height:70px;
+        font-size: 3em;
+         text-align: center;
+        color:white;
+        padding:20px;
+    }
+
+    .button-redo{
+        font-size: 0.6em;
+        background-color: blue;
+        color: white;
+        opacity: 60%;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+        box-shadow: 2px 2px 5px 1px dimgrey;
+        border: solid blue 1px;
+
+    }
+    .container{
+        opacity: 70%;
+        background-color: green;
+        width: fit-content;
+        border-radius: 5px;
+        margin: auto;
+        padding: 10px;
+        margin-top:50px;
+
+    }
+
+    .cotainer-menu{
+        font-size: 3em;
+        width: fit-content;
+        margin-left: 35%;
+        color:white;
+       
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .replay{
+        color: white;
+        font-size: 0.7em;
+        margin-left: -20px;
+
+    }
+    #flag-count{
+        color: white;
+        margin:5px;
+        font-size: 0.7em;
+        margin-left: -14px;
+        /*position: relative;
+        top: 4; */
+
+    }
+   #select-level{
+    position: absolute;
+    padding: 10px;
+    font-size: 1.5em;
+    float: left;
+    margin: 10px;
+
+   }
+  
+    .cotainer-menu i{
+        
+
+    }
+
+  
+
+.toggle {
+    visibility: hidden;
+   
+}
+
+#popup{
+    top: -400;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    z-index: 1;
+    border-radius: 5px;
+    opacity: 99%;
+    font-size: xx-large;
+    border: solid lightgray 1px;
+    box-shadow: 10px 10px 16px dimgrey;
+    position: relative;
+    width: 40%;
+}
+
+
+#popup-result{
+    /* margin:auto; */
+    /* background-color: red; */
+}

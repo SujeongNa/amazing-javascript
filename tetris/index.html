@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>tetris</title>
+        <style>
+            #tetris-table{
+                border-collapse: collapse;
+                background-color:honeydew;
+                border: solid gray 1px;
+            }
+            #tetris-table td{
+                border: solid dimgray 0.2px;
+                width: 25px;
+                height: 25px;
+                opacity: 0.85;
+            }
+            
+            td.white{
+                background-color: white;
+
+            } 
+            td.red{
+                background-color: red;
+                
+            }
+            td.blue{
+                background-color: blue;
+            } 
+            td.green{
+                background-color: green;
+            } 
+            td.yellow{
+                background-color: yellow;
+            } 
+            td.navy{
+                background-color: navy;
+            } 
+            td.violet{
+                background-color: violet;
+            }
+            td.pink{
+                background-color: pink;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table id='tetris-table'></table>
+        <script src='./js/tetris.js'></script>
+    </body>
+</html>

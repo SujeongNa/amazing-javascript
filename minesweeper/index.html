@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>mine sweeper</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href='./css/minesweeper.css'>
+        <script src="https://kit.fontawesome.com/dbecdbc297.js" crossorigin="anonymous"></script>
+    </head>
+    <script>
+      
+    </script>
+    <body>
+        
+        <div class='container'>
+                <select id='select-level'>
+                        <option value='15'>easy</option>
+                        <option selected="true" value='20'>medium</option>
+                        <option value='25'>hard</option>
+                    </select>
+                    <div class='cotainer-menu'>
+ 
+                        <i id='i-flag' class="fa fa-flag" style='color:red'></i>
+                        <!-- <i id='i-stopwatch' class="fas fa-stopwatch" style="color:yellow"></i> -->
+                        <i id='i-redo' class="fas fa-redo" style="color:black;" >
+                            <span class='replay'>reset</span></i>
+
+                </div>
+                
+                
+        <table id='main-table'></table>
+       
+        
+      </div>
+      <div id='popup' >
+            <span id='popup-result'>your result</span>
+            <button onclick="onClickRedo()" class="button-redo">REPLAY</button>
+            
+        </div>
+
+    
+        <script src='./js/minesweeper.js'></script>
+    </body>
+</html>
