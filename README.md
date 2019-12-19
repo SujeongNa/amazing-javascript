@@ -3,8 +3,8 @@ This repository is my js playground. Let's make fun games with JavaScript.
 
 minesweepr
 - level: medium
-- completion: 80%
+- completion: 90%
 
 tetris
-- level: very hard
+- level: hard
 - completion:40%
